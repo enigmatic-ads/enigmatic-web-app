@@ -2,7 +2,7 @@ import './Counter.css';
 function Counter() {
     return (
         <div className="counter-container">
-            <img src="/counter1.jpeg" alt="counter" />
+            <img src="./counter1.jpeg" alt="counter" />
             <div className="overlay">Marketing is really Just about sharing your passion</div>
             <div className='counter-main'>
                 <div className='counter-main-content'>

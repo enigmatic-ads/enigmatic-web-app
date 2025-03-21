@@ -7,7 +7,7 @@ function About() {
     return (
         <div className='about-container'>
             <div className="image-container">
-                <img src="/about.jpg" className="carousel-image" />
+                <img src="./about.jpg" className="carousel-image" />
                 <div className="centered">Enigmatic Ads</div>
             </div>
             <div className='about-content'>

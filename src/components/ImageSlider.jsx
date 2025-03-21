@@ -15,15 +15,15 @@ export default function ImageSlider() {
     return (
         <Slider {...settings}>
             <div className="image-container">
-                <img src="/crousel11.jpg" className="carousel-image" />
+                <img src="./crousel11.jpg" className="carousel-image" />
                 <div className="centered">KickStart Your Business.</div>
             </div>
             <div className="image-container">
-                <img src="/crousel12.jpg" className="carousel-image" />
+                <img src="./crousel12.jpg" className="carousel-image" />
                 <div className="centered">KickStart Your Business.</div>
             </div>
             <div className="image-container">
-                <img src="/crousel13.jpg" className="carousel-image" />
+                <img src="./crousel13.jpg" className="carousel-image" />
                 <div className="centered">KickStart Your Business.</div>
             </div>
 
