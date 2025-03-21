@@ -1,0 +1,37 @@
+.contact-container{
+    margin: auto;
+    max-width: 80%;
+    overflow: visible;
+    height: 100vh;
+    padding-top: 10%;
+    margin-bottom: 3%;
+}
+.form-input{
+    margin-top: 2%;
+}
+input {
+    width: 100%; /* Sets the width to 100% of the container */
+    box-sizing: border-box; /* Includes padding and border in the width calculation */
+    height: 3rem;
+    font-size: 18px;
+
+}
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    height: 5rem;
+}
+.submit-button {
+    margin-top: 2rem;
+    background-color: #4A6A53; /* Background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    padding: 15px 30px; /* Padding inside the button */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+}
+
+.submit-button:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+}

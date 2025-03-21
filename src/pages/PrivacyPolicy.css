@@ -1,0 +1,31 @@
+.privacy-container{
+    margin: auto;
+    max-width: 1480px;
+    height: auto;
+    padding: 10%;
+    background-color: #ffffff;
+}
+.privacy-heading-container{
+    display: flex;
+    justify-content: center;
+}
+
+.privacy-content{
+    margin-top: 5%;
+}
+.privacy-suncontent{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.privacy-subheading{
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 3%;
+}
+.privacy-maincontent{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 2%;
+}

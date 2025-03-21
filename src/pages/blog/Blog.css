@@ -1,0 +1,32 @@
+.blog-container{
+    max-width: 1024px;
+    margin: 10% auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+.blog-image{
+    width: 100%;
+    height: auto;
+}
+.blog-heading{
+    font-size: 2rem;
+    color: #1E73BE;
+    font-weight: 400;
+    overflow: visible;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    line-height: 2rem;
+    
+}
+.blog-content{
+    border-bottom: 1px solid grey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+@media screen and (max-width: 768px){
+    .blog-container{
+        grid-template-columns: 1fr;
+    }
+
+}

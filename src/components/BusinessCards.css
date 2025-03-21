@@ -1,0 +1,67 @@
+.business-card-container{
+    margin: 0;
+    padding: 0;
+        display: flex; /* Enable grid layout */
+        justify-content: center;
+        align-items: center; /* Define two equal columns */
+        height: 100vh; /* Set the height to the viewport height */
+}
+.indvisual-cards-container{
+    height: 80%;
+    width: 75%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.business-card{
+    width: 100%;
+    height: 100%;
+    border: 0.2px solid rgb(238, 237, 237);
+    padding: 10px;
+   
+}
+.business-card:hover{
+    color:#fff;
+    background-color: #4a6a52;
+}
+.business-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.item-heading{
+    color: #E5CC89;
+    margin-top:7%;
+}
+.item-heading-2{
+    margin-top: 7%;
+    color:#fff;
+    overflow: visible;
+}
+.item-heading-2:hover{
+    color:#E5CC89;
+    cursor: pointer;
+}
+.item-date{
+    margin-top: 10%;
+}
+.item-content{
+    margin-top: 7%;
+}
+.item-read{
+    margin-top: 7%;
+}
+
+@media screen and (max-width: 768px){
+    .indvisual-cards-container{
+        height: 80%;
+        width: 75%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+        overflow-y: visible;
+    }
+}

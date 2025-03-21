@@ -1,0 +1,120 @@
+
+
+/* Setting the container to take up the entire screen */
+.container1 {
+    margin-top: -1%;
+    display: grid; /* Enable grid layout */
+    grid-template-columns: 1fr 1fr; /* Define two equal columns */
+    height: 100vh; /* Set the height to the viewport height */
+}
+
+/* Optional styling for the columns */
+.column-1{
+    display: flex; /* Enable flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; 
+    background-image: url('/preview2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Include padding in element width/height */
+}
+
+/* Example styles for each column */
+.column-1-wrapper{
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.column-1-heading{
+    font-size: 16px;
+    color: #E5CC89;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+}
+.column-1-heading-2{
+    font-size: 56px;
+    color: #E5CC89;
+    white-space: normal;
+    line-height: 1;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+}
+.column-2 {
+    display: flex; /* Enable flexbox for alignment */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box; 
+    background-color: #E5CC89;
+}
+.column-2-wrapper{
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.column-2-heading{
+    color: #4A6A53;
+    font-size: 36px;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+}
+.column-2-para{
+    font-size: 26px;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+}
+.column-2-div{
+    font-size: 26px;
+    color: #4A6A53;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+}
+
+
+@media screen and (max-width: 768px){
+    .container1 {
+        margin-top: -1%;
+        display: grid; /* Enable grid layout */
+        grid-template-columns: 1fr; /* Define two equal columns */
+        height: 100vh; /* Set the height to the viewport height */
+    }
+    /* .column-1{
+        background-image: none;
+
+    } */
+    .column-1-heading{
+        font-size: 12px;
+        color: #E5CC89;
+        overflow: visible;
+        margin-bottom: 1.5rem;
+    }
+    .column-1-heading-2{
+        font-size: 16px;
+        color: #E5CC89;
+        white-space: normal;
+        line-height: 1;
+        overflow: visible;
+        margin-bottom: 1.5rem;
+    }
+    .column-2-heading{
+        color: #4A6A53;
+        font-size: 16px;
+        overflow: visible;
+        margin-bottom: 1.5rem;
+    }
+    .column-2-para{
+        font-size: 14px;
+        overflow: visible;
+        margin-bottom: 1.5rem;
+    }
+    .column-2-div{
+        font-size: 16px;
+        color: #4A6A53;
+        overflow: visible;
+        margin-bottom: 1.5rem;
+    }
+}

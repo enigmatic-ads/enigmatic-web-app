@@ -1,0 +1,65 @@
+.comp-container{
+    margin: 0;
+    padding: 0;
+        display: grid; /* Enable grid layout */
+        grid-template-columns: 1fr 1fr; /* Define two equal columns */
+        height: 100vh; /* Set the height to the viewport height */
+
+}
+.comp-column-1{
+        display: grid; /* Use grid layout */
+        grid-template-rows: 1fr 1fr; /* Create two rows of equal height */
+        grid-template-columns: 1fr 1fr; /* Create two columns of equal width */
+        height: 100%; /* Make the grid take the full height of the viewport */
+}
+.comp-column-2{
+    
+    background-image: url('/lolo1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+.comp-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-left: 15%;
+}
+.comp-icon{
+    height: 50px;
+    width: 50px;
+    color: #E5CC89;
+}
+.comp-heading{
+    color: #1E73BE;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.comp-content{
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .comp-container{
+        margin: 10px 20px;
+        padding: 0;
+            display: grid; /* Enable grid layout */
+            grid-template-columns: 1fr; /* Define two equal columns */
+            height: 100vh; /* Set the height to the viewport height */
+    
+    }
+    .comp-column-1{
+        grid-template-columns: 1fr;
+        height: auto;
+        padding: 15%;
+        gap: 10px;
+        overflow: auto;
+    }
+    .comp-column-2{
+    
+        background-image: none;
+    }
+}

@@ -1,0 +1,9 @@
+.blog-post-container{
+    position: relative;
+    margin: auto;
+    max-width: 70%;
+    margin-top: 10%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+}

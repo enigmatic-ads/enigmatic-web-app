@@ -1,0 +1,41 @@
+.footer{
+        height: 15%;
+        background-color: #4a6a52;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+  
+}
+.footer-column{
+        height: 50%;
+        width: 25%;
+        margin-top: 5%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        gap: 20px;
+}
+.image-column{
+        display: flex;
+        
+}
+.footer-column-heading{
+        color: #E5CC89;
+}
+@media screen and (max-width: 768px){
+     .footer{
+        display: block;
+       
+     } 
+     .footer-column{
+        display: block;
+        width: 100%;
+}
+.image-column{
+        display: block;
+        width: 100%;
+        
+}
+}

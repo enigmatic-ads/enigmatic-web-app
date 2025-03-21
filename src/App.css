@@ -1,0 +1,31 @@
+.website {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  color: rgb(135, 140, 155);
+  display: block;
+  font-family: Ubuntu, sans-serif; /* Added sans-serif as a fallback */
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 28.8px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper{
+    box-sizing: border-box;
+    color: rgb(135, 140, 155);
+    display: block;
+    font-family: Ubuntu, sans-serif; /* Added sans-serif as a fallback */
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 28.8px;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    -webkit-font-smoothing: antialiased;
+    overflow: visible;
+}

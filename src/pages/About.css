@@ -1,0 +1,70 @@
+.about-container{
+    height: 100vh;
+}
+.image-container{
+    position: relative;
+    text-align: center;
+    color: rgb(255, 197, 73);
+    width: 100vw;
+    height: 80%;
+    overflow: visible;
+
+}
+
+.carousel-image{
+height: 100%;
+width: 100%;
+}
+.centered {
+position: absolute;
+top: 60%;
+left: 50%;
+height: 40%;
+width: 60%;
+font-size: 4rem;
+transform: translate(-50%, -50%);
+overflow: visible;
+}
+
+.about-content{
+    overflow: visible;
+}
+.about-upper{
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-upper > div{
+    padding-top :3rem;
+    padding-left: 5rem;
+    padding-right: 4rem;
+}
+.about-tagline{
+    font-size: 40px;
+    line-height: 3rem;
+    color: #1E73BE;
+}
+.about-upper-content{
+    margin-top: 3%;
+}
+.about-lower{
+    margin: auto;
+    margin-top: 5%;
+    height: fit-content;
+    max-width: 80%;
+    padding-bottom:  5%;
+}
+.about-list{
+    margin-top: 1%;
+}
+.about-list > li{
+    margin-top: 3%;
+}
+@media screen and (max-width: 768px){
+    .about-upper{
+        display: block;
+        margin-left: -5%
+    
+    }
+}
