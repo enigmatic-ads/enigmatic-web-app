@@ -12,7 +12,7 @@ function ServicePage() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-        setImageUrl(urlData.urlsrc);
+        setImageUrl('/enigmatic-web-app' + urlData.urlsrc);
         setContent(urlData.content);
         setTitle(urlData.title);
     }, [urlData])
