@@ -120,7 +120,7 @@ const Menu = () => {
                     </li>
                 </ul>
                 <h1 className="logo">
-                    <Link to={'/'}><img src="./logonew.jpg" width={100} height={100} alt="Logo" /></Link>
+                    <Link to={'/'}><img src="/logonew.jpg" width={100} height={100} alt="Logo" /></Link>
                 </h1>
             </div>
         </nav>

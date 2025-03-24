@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
     return (
         <footer className='footer'>
-            <div className='footer-column image-colunm'><img src='./lologogo.jpg' style={{
+            <div className='footer-column image-colunm'><img src='/lologogo.jpg' style={{
                 width: "70%",
 
             }} /></div>
