@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Only upload the built output
-          path: 'build'  # Or 'dist' if you're using Vite
+          path: 'dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
